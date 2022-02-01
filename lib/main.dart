@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.rubik().fontFamily,
       ),
       home: const MyCalculator(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
